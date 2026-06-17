@@ -1,0 +1,178 @@
+comandos de git para utilizar no terminal do vscode.
+
+Comando:
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+------------------------------------------------------------
+
+Comando: git init
+O que faz: inicializa um repositório 
+Explicação simples: cria um repositório git na pasta atual 
+Quando usar: ao começar um projeto do zero
+Exemplo: git init
+
+------------------------------------------------------------
+
+Comando: git clone <url>
+O que faz: clona um repositório 
+Explicação simples: Baixa um projeto existente do Github 
+Quando usar: quando vai trabalhar em um projeto já criado
+Exemplo: git clone https://github.com/user/projeto.git
+
+-----------------------------------------------------------
+
+Comando: git status
+O que faz: Mostra o estado do repositório
+Explicação simples: Exibe arquivos modificados, adicionados ou não rastreados 
+Quando usar: Sempre antes de fazer comit
+Exemplo: git status
+
+-----------------------------------------------------------
+
+Comando: git add .
+O que faz: Adiciona todos os arquivos 
+Explicação simples: Coloca todos os arquivos modificados na área de preparação (staging)
+Quando usar: Antes de fazer um comit
+Exemplo: git add .
+
+------------------------------------------------------------
+
+Comando: git add <arquivo>
+O que faz: Adiciona arquivos específicos
+Explicação Simples: Adiciona apenas um arquivo ao staging 
+Quando usar: Quando quer subir só um arquivo
+Exemplo: git add index.html
+
+------------------------------------------------------------
+
+Comando: git commit -m "mensagem"
+O que faz: Cria um Commit
+Explicação simples: Salva as alterações com uma descriçõa
+Quando usar: Aposadicionar arquivos 
+Exemplo: git commit -m "corrige login"
+
+------------------------------------------------------------
+
+Comando: git push
+O que faz: Envia alterações
+Explicação simples: Envia commits para o repositório remoto
+Quando usar: Após commit
+Exemplo: git push origin main
+
+------------------------------------------------------------
+
+Comando: git push --force
+O que faz: Força envio
+Explicação simples: Sobrescreve o histórico remoto 
+Quando usar: Quando precisa corrigir histórico (cuidado!) 
+Exemplo: git push --force origin main
+
+------------------------------------------------------------
+
+Comando: git pull <branch>
+O que faz: Atualiza projeto 
+Explicação simples: Baixa e mescla alterações sem aplicar automaticamente 
+Quando usar: Antes de começar a trabalhar
+Exemplo: git pull origin main
+
+------------------------------------------------------------
+
+Comando: git fetch 
+O que faz: busca atualizações
+Explicação simples: Baixa alterações sem aplicar automaticamente 
+Quando usar: Quando quer revisar antes de atualizar
+Exemplo: git fetch
+
+------------------------------------------------------------
+
+Comando: git marge <branch>
+O que faz: Junta branches
+Explicação simples: Mescla uma branch com a atual
+Quando usar: Para integrar funcionalidades
+Exemplo: git marge dev
+
+------------------------------------------------------------
+
+Comando: git checkout -b <branch>
+O que faz: Cria e troca para uma nova branch
+Explicação simples: Cria e já muda para ela 
+Quando usar: para iniciar uma nova funcionalidade
+Exemplo: git checkout -b feature-login
+
+------------------------------------------------------------
+
+Comando: git checkout <branch>
+O que faz: Troca de branch
+Explicação simples: Muda para outra branch existente
+Quando usar: Para navegar entre versões 
+Exemplo: git checkout main
+
+------------------------------------------------------------
+
+Comando: git swi <branch>
+O que faz:Alternativa ao checkout
+Explicação simples: Troca de branch de forma mais moderna 
+Quando usar: mesmo uso do checkout
+Exemplo: git swirch dev
+
+------------------------------------------------------------
+
+Comando: git branch
+O que faz: Lista branches
+Explicação simples: Mostra todas as branches
+Quando usar: Para visualizar o projeto
+Exemplo: git branch
+
+------------------------------------------------------------
+
+Comando:git branch <branch>
+O que faz: Cria branch
+Explicação simples: Cria uma nova branch
+Quando usar: Antes de desenvolver algo novo 
+Exemplo: git branch nova-feature
+
+------------------------------------------------------------
+
+Comando: git branch -d <branch>
+O que faz: Deleta branch
+Explicação simples: Remove uma branch local 
+Quando usar: Após finalizar uma feature
+Exemplo: git branch -d feature-login
+
+------------------------------------------------------------
+
+Comando:git log
+O que faz: Histórico de commits
+Explicação simples: Mostra todos os commits feitos 
+Quando usar: Para acompanhar mudanças 
+Exemplo: git log
+
+------------------------------------------------------------
+
+Comando: git log --oneline
+O que faz: Histórico
+de commits resumido
+Explicação simples: Mostra os commits em uma linha 
+Quando usar: Visualização rápida 
+Exemplo: git log --oneline
+
+------------------------------------------------------------
+
+Comando:
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+------------------------------------------------------------
+
+Comando:
+O que faz:
+Explicação simples:
+Quando usar:
+Exemplo:
+
+------------------------------------------------------------
