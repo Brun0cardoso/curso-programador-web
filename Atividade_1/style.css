@@ -1,0 +1,116 @@
+*{
+    margin: 0; /*para fora*/
+    padding: 0; /*para dentro*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.corpo-do-site{
+    background-color: dimgray;
+    padding: 1rem; /*0,5 rem equivalem a 8pixel*/
+}
+
+.cabecalho{
+    background-color: darkgray;
+    border-radius:5px;
+    text-align: center;
+    color: aliceblue;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.sessao-principal{
+    display: flex;
+    padding: 1rem;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    gap: 1rem;
+    width: calc(100% - 2.25rem);
+}
+
+.meu-navegacao{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sessao-semantica {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-div {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: calc(100% - 2rem); 
+      
+}
+
+.div-1 {
+    margin-bottom: 1rem; 
+}
+
+.article-1, .article-2 {
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.article-1 {
+    height: 250px;
+}
+.article-2 {
+    height: 150px;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.anuncios {
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-vertical{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.rodape {
+    background-color: darkgrey;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

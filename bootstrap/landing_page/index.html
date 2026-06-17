@@ -1,0 +1,204 @@
+<!-- Define o tipo de documento para o navegador -->
+<!DOCTYPE html>
+
+<!-- Informa o conteúdo HTML e o idioma do site para o navegador -->
+<html lang="pt-br">
+
+<!-- Informar ao navegador todas as informações adicionais sobre o site -->
+
+<head>
+    <!-- Informar ao navegador o título do nosso site -->
+    <title>Curso Programador Web</title>
+    <!-- Informa qual é a cadeia de caracteres utilizada pelo site -->
+    <meta charset="UTF-8">
+    <!-- Informa ao navegador qual é a escala inicial do nosso site (proporção) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Informa todo o conteúdo do nosso site -->
+
+<body>
+
+    <!-- Header (Cabeçalho) -->
+    <!-- Logo,Menu de navegação, Botão CTA -->
+    <header>
+        <a href="#hero" class="logo" aria-label="ConsórcioMax">
+            <img src="image/Logo.png" alt="ConsórcioMax" class="logo-img">
+        </a>
+        <!-- Cria o menu de navegação -->
+        <nav>
+            <!-- Cria uma lista não ordenada -->
+            <ul class="menu-header">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#depoimentos">Feedback</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-primary" href="#cta-final">Agendar agora!</a>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Botão CTA, Banner promocional, Textos auxiliares -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="hero-title">Invista no seu futuro com o consórcio certo</h2>
+            <p class="hero-subtitle">
+                Planeje suas conquistas com parcelas acessíveis e orientação especializada
+                para investir em imóveis, veículos, serviços e crescimento patrimonial.
+            </p>
+            <a class="btn btn-primary" href="#cta-final">Quero simular</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre os Produtos -->
+    <!-- Teremos cards que explicam detalhadamente cada um dos seguintes tipos de consórcio: imobiliário, veícular, serviços e investimento -->
+    <section class="section" id="produtos">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Consórcio Imobiliário</h3>
+                    <p>
+                        Ideal para quem deseja comprar imóvel com planejamento e sem juros.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Consórcio Veicular</h3>
+                    <p>
+                        Conquiste carro ou moto novos com parcelas que cabem no seu orçamento.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Consórcio de Serviços</h3>
+                    <p>
+                        Use a carta de crédito para reforma, viagens, estudos e outros projetos.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Consórcio para Investimento</h3>
+                    <p>
+                        Estratégia para ampliar patrimônio com disciplina e visão de longo prazo.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios ou Diferenciais -->
+    <!-- Anos de trabalho, Clientes atendidos, Atendimento humanizado e exclusivo, Porcentagem de clientes contemplados -->
+    <section class="section section-alt" id="beneficios">
+        <div class="container">
+            <h2 class="section-title">Benefícios de Escolher a ConsórcioMax</h2>
+            <ul class="benefits-list">
+                <li>9 anos de experiência</li>
+                <li>Atendimento personalizado</li>
+                <li>Equipe com 16 especialistas</li>
+                <li>Alta taxa de contemplação</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sobre a empresa -->
+    <!-- História da empresa: como surgiu, porque surgiu, quem criou, quando surgiu, linha do tempo (marcos históricos): local, faturamento, quantidade de funcionários, etc... -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre a Empresa</h2>
+            <p class="about-text">
+                A ConsórcioMax nasceu com a missão de democratizar o acesso ao investimento
+                por meio de soluções em consórcio. Atuamos com atendimento próximo, orientação
+                transparente e foco em resultados para apoiar cada cliente na realização de
+                objetivos pessoais e profissionais.
+            </p>
+        </div>
+    </section>
+
+    <!-- Prova Social -->
+    <!-- Carrossel com cards de depoimentos e avaliações dos clientes -->
+    <section class="section section-alt" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title">Depoimentos de Clientes</h2>
+            <div class="card-grid">
+                <article class="card testimonial-card">
+                    <!--Representa conteúdo independente e reutilizável em uma pagina-->
+                    <p>
+                        "Com o suporte da equipe, consegui investir com segurança e fui
+                        contemplado no terceiro ano."
+                    </p>
+                    <span>- Marcos Silva</span> <!--Texto destacado-->
+                </article>
+                <article class="card testimonial-card">
+                    <p>
+                        "O atendimento foi muito claro desde o início. Hoje tenho meu
+                        planejamento financeiro organizado."
+                    </p>
+                    <span>- Fernanda Rocha</span>
+                </article>
+                <article class="card testimonial-card">
+                    <p>
+                        "Excelente experiência. A consultoria personalizada fez toda a
+                        diferença na minha decisão."
+                    </p>
+                    <span>- Carlos Mendes</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <!-- Formulário otimizado para captura de leads + Botão CTA -->
+    <section class="section" id="cta-final">
+        <div class="container">
+            <h2 class="section-title">Solicite uma simulação</h2>
+            <form class="lead-form" action="#"> <!--action, adiciona uma ação ao elemento-->
+                <div class="form-row">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite aqui o seu nome!">
+                </div>
+            <div class="form-row">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div class="form-row">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail">
+            </div>
+            <div class="form-row">
+                <label for="provissao">Profissão</label><!--Define um rótulo-->
+                <input type="text" id="profisao" name="profisao"
+                    placeholder="Digite aqui sua renda atual"><!-- input, cria campos interativos em formulários, placeholder define um texto temporario-->
+            </div>
+            <div class="form-row">
+                <label for="renda">Renda</label>
+                <input type="number" id="renda" name="renda" placeholder="Digite sua renda">
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (Rodapé) -->
+    <!-- Informações para contato, Link para dúvidas frequêntes/Sac, Redes sociais -->
+    <footer class="section-footer" id="footer">
+        <div class="container footer-content">
+            <div>
+                <h3>ConsórcioMax</h3>
+                <p>Email: contato@consorciomax.com</p>
+                <p>Telefone: (xx) xxxxx-xxxx</p>
+                <p>Endereço: Av.pricipal - 22222, São josé dos Pinhais - PR</p>
+            </div>
+            <p class="copyright">© Senac 2026 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante (Whatsapp) -->
+    <!-- Botão flutuante para contato rápido através do whatsapp -->
+    <a class="whatsapp-button" href="#" aria-label="Abrir conversa no whatsApp">
+        WhatsApp
+    </a>
+
+</body>
+
+</html>
