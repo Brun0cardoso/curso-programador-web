@@ -1,0 +1,15 @@
+div .navbar-nav {
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.container {
+    background-color: aqua;
+}
+
+.container-fluid-1 {
+    background-color: blue;
+}
+

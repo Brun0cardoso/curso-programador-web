@@ -1,0 +1,234 @@
+* {/* elementos globais*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background-color: #f8fafc; /*Determina a cor do fundo*/
+    line-height: 1.5;/* espaçamento entre uma linha e outra*/
+}
+ 
+.container {/*Determina qual o tamanho do nosso container*/
+    width: 1100px;
+    margin: 0 auto;
+}
+ 
+header {
+    background-color: #f8fafc;
+    width: 100%; /*Define a largura da área de conteúdo de um elemento*/
+    height: 100px; /*Para alinhar elementos ou texto à direita*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.logo-img {
+    display: block;
+    height: 56px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+}
+ 
+.menu-header {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ 
+.menu-header li a {
+    color: #102a43;
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+.menu-header li a:hover {
+    border-bottom: 2px solid #ffbf00;
+}
+ 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+.btn-primary {
+    background-color: #eecb31;
+    color: #102a43;
+    font-weight: bold;
+    margin-right: 20px;
+}
+ 
+.hero {
+    background-color: #102a43;
+    background-image: linear-gradient(rgba(16, 42, 67, 0.72), rgba(16, 42, 67, 0.72)), url("../image/FotoFundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 330px 0;
+}
+ 
+.hero-title {
+    font-size: 70px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+ 
+.hero-subtitle {
+    font-size: 28px;
+    max-width: 760px;
+    margin-bottom: 30px;
+}
+ 
+.section {
+    padding: 70px 0;
+}
+ 
+.section-alt {
+    background-color: #eaf2fb;
+}
+ 
+.section-title {
+    font-size: 32px;
+    color: #102a43;
+    margin-bottom: 30px;
+}
+ 
+.card-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dbe4ee;
+    border-radius: 10px;
+    padding: 24px;
+    width: 260px;
+    min-height: 170px;
+}
+ 
+.card h3 {
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+ 
+.benefits-list{
+    list-style-position: inside;/*informar qual posição vai ficar, inside é o valor do posicionamento */
+    font-size: 20px;
+    display: flex;/*informar para ser flexivel*/
+    flex-direction: column;/*flexivel na coluna*/
+    gap: 10px;/*espaçamento entre elementos*/
+
+}
+
+.about-text {
+    font-size: 18px;
+    max-width:760px; /*largura maxima*/
+    text-align: justify; /*Determina inicio e fim do texto*/
+
+}
+
+.testimonial-card p {
+    text-align: center;
+    font-style: oblique;
+
+}
+
+.testimonial-card span {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.lead-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 760px;
+    background-color: #ffffff;
+    border: solid 1px #dbe4ee;
+    border-radius: 24px;
+    padding: 24px;
+
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.form-row label {
+    font-weight: bold;
+    color: #102a43;
+
+}
+
+.form-row input {
+    height: 40px;
+    border: solid 1px #cbd5e1;
+    border-radius: 8px;
+    padding: 0 12px; /* os valeres são referente a horizontal e vertical*/
+    font-size: 15px;
+
+}
+
+.lead-form .btn {
+    width: 200px;
+    margin: auto;
+    margin-top: 8px;
+
+}
+
+.section-footer {
+    background-color: #102a43;
+    color: #dbeafe;
+    padding: 40px 0;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.footer h3 {
+    margin-bottom: 10px /*margin de baixo*/
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #25d366;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 18px;
+    border-radius: 999px;
+    font-weight: bold;
+    
+}

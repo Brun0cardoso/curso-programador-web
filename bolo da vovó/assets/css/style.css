@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagem{
+    width: 5%;
+}
+ 
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 8px;
+}
+.links-cabecalho{
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.corpo{
+    background-color: bisque;
+}
+ 
+.descritivo{
+    margin-left: 24px;
+}
+ 
+.titulo-principal{
+    color: saddlebrown;
+}
+ 
+.bolo-descricao{
+    white-space: pre-wrap;
+    font-weight: 200;
+    color: saddlebrown;
+}
+ 
+.ingredientes{
+    margin: 4px 24px;
+}
+ 
+.titulo-receita{
+    margin: 6px 0;
+    color: saddlebrown;
+}
+ 
+.area-ingredientes{
+    border-color: brown;
+    width: 60%;
+}
+ 
+.subtitulo-box{
+    margin: 0 16px;
+    color: brown;
+}
+ 
+.titulo-receita{
+    margin: 6px;
+    color: saddlebrown;
+}
+.area-ingredientes{
+    border-color: brown;
+    width: 60%;
+}
+
+.subtitulo-box {
+    margin: 0 16px;
+    color: brown;
+}
+ 
+.lista-receita{
+    margin-left: 8px;
+    list-style-type: none;
+}
+
+.utensilios {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-uten {
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.titulo-card{
+    margin: 4px 0;
+}
+
+.btn-compra {
+    background-color: saddlebrown;
+    color: bisque;
+    padding: 2px;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+}
+
+.preparo{
+    margin: 4px 24px;
+}
+
+.subtitulo-lista{
+    margin: 4px 0;
+}
+
+ .lista-preparo{
+    margin: 0 24px;
+    list-style: lower-roman;
+ }
+
+ .rodape {
+    margin: 24px;
+    background-color: antiquewhite;
+ }
+ 
