@@ -1,0 +1,6 @@
+-- CREATE DATABASE escola;
+-- USE escola;
+-- CREATE TABLE alunos(
+-- id INT AUTO_INCREMENT PRIMARY KEY, NOME VARCHAR(100),
+-- idade INT
+--);
