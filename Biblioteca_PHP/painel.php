@@ -30,11 +30,12 @@ include("verificar_sessao.php")
                 Sair
             </a>
         </div>
+        <div class="dica-navegacao">
+            <strong>Fluxo:</strong> Painel -> Cadastrar Livro ou Listar Livro -> Editar / Excluir
+        </div>
+
     </div>
 
-    <div class="dica -navegacao">
-        <strong>Fluxo:</strong> Painel -> Cadastrar Livro ou Listar Livro -> Editar / Excluir
-    </div>
 
 </body>
 

@@ -17,7 +17,7 @@
             echo '<div class="mensangem-erro">Este email já está cadastrado.</div>';
         }
         ?>
-        <form action="salvar _usuario.php" method="POST">
+        <form action="salvar_usuario.php" method="POST">
 
             <div class="form-group">
                 <label for="nome">Nome</label>
